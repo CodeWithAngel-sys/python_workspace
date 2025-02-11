@@ -1,3 +1,4 @@
+
 class Point:
     def __init__(self, x, y):
         self.x = x
@@ -16,3 +17,5 @@ if __name__ == "__main__":
     print(f"Point 1: {point1}")
     print(f"Point 2: {point2}")
     print(f"Distance between Point 1 and Point 2: {point1.distance_to(point2)}")
+
+    #on progress
