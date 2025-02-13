@@ -1,3 +1,11 @@
+import math
+
+try:
+    input_arr = list(map(int, input("Enter numbers separated by space: ").split()))
+except ValueError:
+    print("Invalid input. Please enter integers only.")
+    input_arr = []
+
 def lowest_to_highest(arr):
     return sorted(arr)
 
